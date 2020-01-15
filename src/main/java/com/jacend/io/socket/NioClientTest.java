@@ -22,7 +22,7 @@ public class NioClientTest {
                     // rintWriter out = new PrintWriter(cSocket.getOutputStream(), true);
 
                     // out.println("hello serverdd");
-                    bufferedReader.lines().forEach(s -> System.out.println("客户端 1 打印：" + s));
+                    // bufferedReader.lines().forEach(s -> System.out.println("客户端 1 打印：" + s));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

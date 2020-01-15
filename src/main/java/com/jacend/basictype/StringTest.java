@@ -57,8 +57,15 @@ public class StringTest {
         System.out.println(s6 == s7);
     }
 
+    public static void change(String str) {
+        System.out.println(str);
+        str = "xiaowang";
+        System.out.println(str);
+    }
 
     public static void main(String[] args) {
-        internTest();
+        String str = new String("laowang");
+        change(str);
+        System.out.println(str);
     }
 }
