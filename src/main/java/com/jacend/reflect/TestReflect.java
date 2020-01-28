@@ -1,10 +1,8 @@
 package com.jacend.reflect;
 
 
-import java.awt.image.AreaAveragingScaleFilter;
 import java.io.Serializable;
 import java.lang.reflect.*;
-import java.util.Arrays;
 
 public class TestReflect implements Serializable {
 
