@@ -8,7 +8,7 @@ public class IntegerTest {
 
     public static void main(String[] args) {
         Integer i = 129;
-        change(i);
-        System.out.println(i);
+        Integer a = Integer.valueOf(129);
+        System.out.println(i == a);
     }
 }
