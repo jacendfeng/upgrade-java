@@ -1,6 +1,8 @@
 package com.jacend.collection;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class IteratorTest {
@@ -15,5 +17,6 @@ public class IteratorTest {
 
         // JDK8 增加的支持 lambda 表达式的遍历方式
         list.iterator().forEachRemaining(item -> System.out.println(item));
+        list.stream().forEach(item -> System.out.println(item));
     }
 }
